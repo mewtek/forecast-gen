@@ -40,7 +40,7 @@ print("Generating speech.txt...")
 
 speech = open('speech.txt', "w+")
 
-speech.write("FORECAST-GEN 1.0.0 - GENERATED AT " + strftime('%m/%d/%y %H:%M') + '\n======================================\n')
+speech.write("FORECAST-GEN 0.1.0 - GENERATED AT " + strftime('%m/%d/%y %H:%M') + '\n======================================\n')
 speech.writelines("You are listening to NOAA Weather Radio Station KXI83, the voice of the National Weather Service.\n"
                 + "This station originates from a transmitter located in Fort Mohave, Arizona, and data originates from the National Weather Service in Las Vegas, Nevada...\n"
                 + f"The current time is {strftime('%I:%M %p %Z')}.\n"
