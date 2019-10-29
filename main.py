@@ -9,6 +9,7 @@ from contextlib import closing
 from bs4 import BeautifulSoup
 
 
+# TODO: Remove redundant code & clean up a bit.
 
 def getAlertHeadline(zone):      # Get alert headlines from a zone
     zone_alerts_url = f'https://api.weather.gov/alerts/active/zone/{zone}'
