@@ -1,4 +1,4 @@
-""" FORECAST-GEN VERSION 0.1.0
+""" FORECAST-GEN VERSION 0.2.0
 This system has no afilliation with NOAA's National Weather Service, nor their CRS (Console Replacement system)
 Or BMH (Broadcast Message Handler) systems. """
 
@@ -38,7 +38,7 @@ printScriptOnFinish = False     # Print the script to console when it's finished
 
 # TTS Setup
 
-enableTTS = True   # When this is enabled, it will automatically read the script after it's generated
+enableTTS = False   # When this is enabled, it will automatically read the script after it's generated
 voice = 'ScanSoft Tom_Full_22kHz'   # This should be the full name of the TTS voice, not just "Tom" or "Mike"
                                     # If you're unsure what the name of the voice you want is, run balcon with the argument -l for a list of voice names
 
@@ -49,7 +49,7 @@ print("Generating speech.txt...")
 
 speech = open('speech.txt', "w+")
 
-speech.write("FORECAST-GEN 0.1.0 - GENERATED AT " + strftime('%m/%d/%y %H:%M') + '\n======================================\n')
+speech.write("FORECAST-GEN 0.2.0 - GENERATED AT " + strftime('%m/%d/%y %H:%M') + '\n======================================\n')
 speech.writelines("You are listening to NOAA Weather Radio Station KXI83, the voice of the National Weather Service.\n"
                 + "This station originates from a transmitter located in Fort Mohave, Arizona, and data originates from the National Weather Service in Las Vegas, Nevada...\n"
                 + f"The current time is {strftime('%I:%M %p %Z')}.\n"
