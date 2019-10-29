@@ -15,7 +15,7 @@ If needed, you can edit some of the functions in `main.py` to suit what you want
 Any forecast-gen version starting from 0.2.0 supports TTS functionality.
 
 ### Software
-Forecast-gen uses a software called [Balcon](http://cross-plus-a.com/balabolka.htm) to read off the text file generated from running `start_system.py`. As for voices, any SAPI 5 voice should work perfectly fine with the software above. If you're looking for a voice to start off with, you could try the voices from the [MS TTS Pack](https://archive.org/details/Sam_mike_and_mary), or i
+Forecast-gen uses a software called [Balcon](http://cross-plus-a.com/balabolka.htm) to read off the text file generated from running `start_system.py`. As for voices, any SAPI 5 voice should work perfectly fine with the software above. If you're looking for a voice to start off with, you could try the voices from the [MS TTS Pack](https://archive.org/details/Sam_mike_and_mary), or the SAPI 5 voices that come included in Windows 10.
 
 ### Running SAPI 5 voices through [WINE](https://www.winehq.org/) (Linux, macOS)
 
