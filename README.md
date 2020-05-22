@@ -28,3 +28,4 @@ Under the assumption that you have already installed WINE and winetricks through
 
 The software for TTS support on Linux, as well as the software for using the voices in a Linux terminal, will not work on ARM operating systems such as [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) or [Arch Linux ARM](https://archlinuxarm.org/).
 
+[22/05/2019] I've decided that I might eventually remake the CRS system at some point, whether it be in python or some other language. This will come with DECTalk as a standalone voice, but if you have the right voices (RealSpeak Tom, AT&T Crystal & Mike) those can be enabled as well. 
